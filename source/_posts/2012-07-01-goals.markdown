@@ -1,0 +1,24 @@
+---
+layout: post
+title: "Goals"
+date: 2012-07-01 19:49
+comments: false
+categories: [Writing, Productivity]
+---
+
+So, today we enter the second half of 2012 and I figured it was a good time to review my progress on some goals I had set out for myself and add one more.
+
+<img src="https://img.skitch.com/20120702-jngidbeg39ckq8y4cbk32kqs8n.png" style="margin: 15px;" alt="2012 Goals"/>
+
+In January, I set out 4 goals for myself and posted them to Facebook so that I would have some kind of accountability. I wanted all of the goals to be easily measurable and have a big impact on my life. As of the end of June I've made some really good progress so far:
+
+* I've bought my new house, and it's opened up a whole new neighborhood of Atlanta to me.
+* Thanks to my [employer](http://highgroove.com) providing a personal trainer and starting to train for the Peachtree Roadrace, I've been working out 4 times a week on average and have lost 20 lbs. so far this year.
+* I've adopted a great new friend; a 3 month old border collie mix named Ernest and he's been the highlight of my summer so far.
+
+I'll admit that I haven't made much progress on my final goal of starting a business thus far, but I've got some big plans for the next six months. The last six months have been transformative for me, and attribute that completely to setting these goals.
+
+Because these goals have been a success so far, I've decided to add one more. For the month of July, I want to write at least 5 blog posts per week. I have wanted to work on my writing for some time now, and I have decided to bias towards getting content in front of people instead of waiting for inspiration to hit.
+
+These will mostly relate to my professional life as a software developer and may tend to be more technical in nature. I definitely welcome any feedback or suggestions at aubrey.c.rhodes@gmail.com.
+
