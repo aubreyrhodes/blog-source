@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Scripting RVM"
+date: 2012-07-09 21:38
+comments: false
+categories: [Ruby, Tools]
+---
+
+<img src="https://rvm.io/images/logo.png" style="float: left; margin-right: 10px;"/>
+
+While working on an issue for the [highgroove-generator](https://github.com/highgroove/highgroove-generator) tool today, I came across an issue with RVM I hadn't faced before. The tool generates a new rails project setup just how we like it and needed to create an RVM gemset and run some commands using that gemset. 
+
+I used [thor](https://github.com/wycats/thor) to build the command line tool for the generator, which made it easy to script out the commands needed to script out the commands needed to put together the project. However, because the commands are run in a separate subshell each there are some problems with using ``rvm create`` and ``rvm use`` as I normally would to setup a gemset. 
+
+Digging into the [RVM documentation](https://rvm.io/workflow/scripting/), I came across an action I hadn't seen before: ``rvm do``. The ``do`` action lets you specify a ruby version and/or a gemset on a per command basis without having to worry about the state of the shell's environment. So using thor, ``run 'gem install bundler'`` becomes ``rvm 1.9.3-p125@my_app do gem install bundler``. Viola!
+
+Checkout my [commit to the generator](https://github.com/highgroove/highgroove-generator/commit/d79aae09b9bdcd1c1daf4f0f01bd8b762c8232a5) to see ``rvm do`` in action.
